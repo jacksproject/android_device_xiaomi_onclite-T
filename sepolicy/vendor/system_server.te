@@ -7,5 +7,6 @@ r_dir_file(system_server, keylayout_file);
 # Fingerprint
 get_prop(system_server, vendor_fp_prop);
 
+get_prop(system_server, exported_camera_prop);
 get_prop(system_server, userspace_reboot_config_prop)
 get_prop(system_server, userspace_reboot_exported_prop)
